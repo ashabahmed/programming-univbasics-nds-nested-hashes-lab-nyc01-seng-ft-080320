@@ -21,7 +21,12 @@ def assembled_aoh
 end
 
 def literal_aoh
-
+  array_of_hashes = [
+    {:name=>"Don Gately", :occupation=>"Live-in Staff"}, 
+    {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
+    {:name=>"Kate Gompert", :occupation=>"None"}, 
+    {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}
+    ]
 end
 
 def aoh_lookup(aoh, row, key)
